@@ -17,11 +17,11 @@ function Tmi({ data, carat }) {
               <img className="introduce__icon" src={carat} alt="carat" />
               <p> Seventeen</p>
             </div>
-            {/* 成员的图片 */}
+      
             <div className="introduce__imgBar">
               <img className="introduce__img" src={item.img} alt={item.name} />
             </div>
-            {/* 成员的详细信息 */}
+      
             <div className="introduce__tmiBar">
               <div className="introduce__issue">
                 <p className="introduce__contentSpace">Name: </p>
@@ -34,7 +34,7 @@ function Tmi({ data, carat }) {
                 <p className="introduce__contentSpace">{item.team}</p>
               </div>
             </div>
-            {/* 了解更多的按钮 */}
+       
             <div className="button">
               <a
                 className="button__button introduce__button"
