@@ -36,6 +36,7 @@ body {
     width: 30px;
     height: 30px;
     margin: 4px;
+
     @include tablet {
       width: 40px;
       height: 40px;
@@ -49,6 +50,7 @@ body {
     font-size: 30px;
     font-family: $fontStyle;
     color: $caratPink;
+
     @include tablet {
       font-size: 40px;
     }
@@ -61,6 +63,7 @@ body {
 
   &__list {
     display: none;
+
     @include desktop {
       display: flex;
       justify-content: center;
@@ -91,11 +94,13 @@ body {
     font-size: 30px;
     font-family: $fontStyle;
     color: $caratPink;
+
     @include tablet {
       margin: 150px 0;
       font-size: 50px;
     }
   }
+
   &__circleBar {
     display: flex;
     justify-content: center;
@@ -103,10 +108,12 @@ body {
     flex-wrap: wrap;
     padding: 5px 0;
     margin: 0 30px;
+
     @include desktop {
       margin: 125px 30px;
     }
   }
+
   &__circle {
     margin: 5px;
     display: flex;
@@ -120,6 +127,7 @@ body {
       margin: 10px;
     }
   }
+
   &__img {
     display: flex;
     width: 60px;
@@ -128,18 +136,22 @@ body {
     border: solid 5px $caratPink;
     transition: width 0.5s, height 0.5s, border 0.5s;
   }
+
   &__button {
     width: 100px;
     padding: 20px 100px;
     margin: 50px 0 100px 0;
+
     @include tablet {
       margin: 100px 0 200px 0;
     }
   }
+
   &__marquee {
     background-color: $caratPink;
     color: $caratBlue;
     margin-top: 70px;
+
     @include tablet {
       margin-top: 0;
     }
@@ -164,23 +176,28 @@ body {
   flex-wrap: wrap;
   margin: 50px 0;
   gap: 25px;
+
   @include tablet {
     margin: 50px 0 100px 0;
   }
+
   &__card {
     display: block;
     margin: 5px;
     background-color: #ffffff;
     border-radius: 20px;
+
     @include tablet {
       margin: 20px;
     }
   }
+
   &__imgBar {
     display: flex;
     justify-content: center;
     padding: 0 5px;
   }
+
   &__idBar {
     display: flex;
     justify-content: center;
@@ -190,11 +207,13 @@ body {
     border-radius: 20px 20px 0 0;
     background-color: #03126d;
   }
+
   &__icon {
     width: 20px;
     height: 20px;
     margin: 5px 2px;
   }
+
   &__img {
     display: flex;
     justify-content: center;
@@ -203,6 +222,7 @@ body {
     height: 120px;
     border-radius: 5px;
     border: solid 2px rgb(0, 0, 0);
+
     @include tablet {
       width: 150px;
       height: 170px;
@@ -218,16 +238,19 @@ body {
     font-size: 30px;
     font-weight: bold;
   }
+
   &__tmiBar {
     text-align: center;
     padding: 0 10px;
   }
+
   &__contentSpace {
     text-align: start;
     height: 20px;
 
     padding: 5px;
     font-size: 10px;
+
     @include tablet {
       margin-bottom: 10px;
       font-size: 15px;
@@ -242,6 +265,7 @@ body {
     font-weight: bold;
     color: #976d11;
   }
+
   &__answer {
     display: inline-block;
     text-align: center;
@@ -255,6 +279,7 @@ body {
     font-size: 10px;
     padding: 5px;
     border: outset 5px $caratPink;
+
     @include tablet {
       padding: 10px;
       font-size: 15px;
@@ -279,6 +304,7 @@ body {
   border: dashed 10px $caratBlue;
   margin: 10px 0;
   padding: 80px 50px;
+
   @include tablet {
     display: flex;
     flex-wrap: wrap;
@@ -286,24 +312,30 @@ body {
     justify-content: space-around;
     padding: 100px 0px;
   }
+
   @include desktop {
     padding: 200px 0px;
   }
+
   &__temaBar {
     display: block;
+
     @include tablet {
       text-align: justify;
       margin: 50px;
     }
   }
+
   &__tema {
     font-size: 70px;
 
     color: $caratBlue;
+
     @include tablet {
       margin: 20px;
     }
   }
+
   &__icon {
     width: 30px;
     height: 30px;
@@ -314,16 +346,19 @@ body {
     display: block;
     margin: 30px;
   }
+
   &__img {
     height: 300px;
     margin: 50px 0;
     border-radius: 20px;
     transition: filter 1s, box-shadow 1s;
     filter: brightness(15%);
+
     @include tablet {
       height: 400px;
     }
   }
+
   &__title {
     display: block;
     justify-content: center;
@@ -333,12 +368,14 @@ body {
     font-size: 30px;
     color: $caratBlue;
     margin: 20px 0;
+
     @include tablet {
       font-size: 30px;
       margin: 0px 0px 20px 30px;
     }
   }
 }
+
 .threeDetachment__img:hover {
   filter: brightness(100%);
   box-shadow: 20px 10px $caratPink;
@@ -350,18 +387,21 @@ body {
 
 .squodBss {
   background-color: $caratBlue;
+
   &__title {
     letter-spacing: 50px;
     color: rgb(170, 27, 27);
     font-size: 50px;
     font-family: $fontTitle;
     font-weight: bold;
+
     @include tablet {
       margin: 100px 60px;
       width: 600px;
       font-size: 100px;
     }
   }
+
   &__person {
     box-shadow: 5px 5px rgb(255, 255, 255);
     border-radius: 20px;
@@ -382,6 +422,7 @@ body {
   border-radius: 10px;
   background-color: #ffffffb0;
   border: outset 5px #ffffffb0;
+
   @include tablet {
     border: outset 10px #ffffffb0;
   }
@@ -389,6 +430,7 @@ body {
   &__titleBar {
     width: 100%;
   }
+
   &__title {
     color: rgb(187, 144, 27);
     font-size: 50px;
@@ -407,19 +449,23 @@ body {
   background-color: #fdf9f3d8;
   border: solid 20px $caratPink;
   padding: 20px;
+
   @include desktop {
     display: flex;
   }
+
   &__list {
     margin: 20px;
+
     @include tablet {
       margin: 50px;
     }
   }
+
   &__titleBar {
     display: block;
-    @include desktop {
-    }
+
+    @include desktop {}
   }
 
   &__title {
@@ -431,6 +477,7 @@ body {
     @include tablet {
       font-size: 50px;
     }
+
     @include desktop {
       text-align: start;
       font-size: 100px;
@@ -443,6 +490,7 @@ body {
     margin: 20px 0;
     color: #525252;
     margin-top: 25px;
+
     @include desktop {
       text-align: start;
       margin: 30px 0;
@@ -460,11 +508,13 @@ body {
       padding: 50px 0;
     }
   }
+
   &__img {
     width: 50px;
     border: solid 5px #000000;
     margin: 10px;
     transition: width 1s;
+
     @include tablet {
       border: solid 8px #000000;
       width: 150px;
@@ -482,34 +532,40 @@ body {
   display: block;
   text-align: center;
   margin: 100px 50px;
+
   &__title {
     font-size: 100px;
     margin: 50px;
     font-family: $fontStyle;
     color: $caratPink;
   }
+
   &__block {
     display: flex;
     justify-content: center;
     align-items: start;
     flex-wrap: wrap;
   }
+
   &__list {
     display: block;
     text-align: center;
     font-size: 20px;
     font-family: $fontStyle;
     color: $caratPink;
+
     @include tablet {
       margin: 0 50px 50px 50px;
     }
   }
+
   &__list--title {
     display: flex;
     justify-content: center;
     margin: 20px;
     font-size: 50px;
   }
+
   &__button {
     display: block;
     margin: 20px;
@@ -518,6 +574,7 @@ body {
     border-radius: 30px;
     border: solid 5px $caratPink;
   }
+
   &__link {
     display: flex;
     padding-left: 10px;
@@ -526,6 +583,7 @@ body {
     text-decoration: none;
   }
 }
+
 .show__button:hover {
   border: solid 5px #ffae00;
 }
@@ -538,9 +596,11 @@ body {
   gap: 30px;
   border: dashed 10px $caratPink;
   border-radius: 30px;
+
   @include tablet {
     margin: 100px;
   }
+
   &__blcok {
     display: block;
     text-align: center;
@@ -552,10 +612,12 @@ body {
     letter-spacing: 20px;
     color: white;
     margin: 50px;
+
     @include tablet {
       font-size: 100px;
     }
   }
+
   &__person {
     color: rgba(255, 255, 255, 0.767);
   }
@@ -570,6 +632,7 @@ body {
     line-height: 30px;
     font-size: 15px;
     transition: font-size 1s, font-weight 1s;
+
     @include tablet {
       margin: 50px;
       font-size: 20px;
@@ -579,6 +642,7 @@ body {
 
 .fans__text:hover {
   font-weight: bold;
+
   @include tablet {
     font-size: 30px;
   }
@@ -594,13 +658,16 @@ body {
   @include tablet {
     gap: 50px;
   }
+
   &__text {
     color: $caratPink;
     margin: 10px;
+
     @include tablet {
       font-size: 20px;
     }
   }
+
   &__textBar {
     display: block;
 
@@ -609,11 +676,13 @@ body {
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+
       @include tablet {
         margin-bottom: 30px;
       }
     }
   }
+
   &__icon {
     display: flex;
     align-items: center;
@@ -621,6 +690,7 @@ body {
     height: 30px;
     margin: 10px;
   }
+
   &__iconBar {
     display: flex;
     justify-content: center;

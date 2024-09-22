@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+
 import "./style/style.scss"
 import {Header} from "./header/header"
 import {FrontPage} from "./frontPage/frontPage"
