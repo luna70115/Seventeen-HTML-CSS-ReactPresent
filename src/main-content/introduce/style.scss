@@ -1,0 +1,123 @@
+@import "/src/assets/style/style.scss";
+.introduce {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  gap: 5px;
+
+  @include tablet {
+    margin: 50px 0 100px 0;
+  }
+
+  &__card {
+    display: block;
+    margin: 5px;
+    // background-color: #ffffff;
+    border-radius: 20px;
+    // height: 410px;
+    // border: solid 1px;
+    @include tablet {
+      margin: 20px;
+    }
+  }
+
+  &__imgBar {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+  }
+
+  &__idBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    height: 30px;
+    border-radius: 20px 20px 0 0;
+    background-color: #03126d;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px 2px;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+    border-radius: 5px;
+
+    @include tablet {
+      width: 150px;
+      height: 170px;
+    }
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin: 0 20px 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  &__tmiBar {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  &__contentSpace {
+    text-align: start;
+    height: 20px;
+    padding: 5px;
+    font-size: 10px;
+
+    @include tablet {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+  }
+
+  &__issue {
+    display: inline-block;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #976d11;
+  }
+
+  &__answer {
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  &__button {
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px;
+    margin: 20px;
+    text-decoration: none;
+    @include tablet {
+      padding: 10px;
+      font-size: 15px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $caratBlue;
+  }
+}
+
+.introduce__button:hover {
+  background-color: $caratBlue;
+  color: beige;
+}

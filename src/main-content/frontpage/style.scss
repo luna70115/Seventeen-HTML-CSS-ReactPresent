@@ -1,0 +1,84 @@
+@import "/src/assets/style/style.scss";
+.frontPage {
+  &__title {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 30px;
+    font-family: $fontStyle;
+    color: $caratPink;
+
+    @include tablet {
+      margin: 140px 0;
+      font-size: 50px;
+    }
+  }
+
+  &__circleBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    margin: 0 30px;
+
+    @include desktop {
+      margin: 125px 30px;
+    }
+  }
+
+  &__circle {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    @include desktop {
+      height: 100px;
+      margin: 10px;
+    }
+  }
+
+  &__img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: solid 5px $caratPink;
+    transition: width 0.5s, height 0.5s, border 0.5s;
+  }
+
+  &__button {
+    width: 100px;
+    padding: 20px 100px;
+    margin: 50px 0 100px 0;
+
+    @include tablet {
+      margin: 100px 0 200px 0;
+    }
+  }
+
+  &__marquee {
+    background-color: $caratPink;
+    color: $caratBlue;
+    margin-top: 70px;
+
+    @include tablet {
+      margin-top: 0;
+    }
+  }
+}
+
+.frontPage__img:hover {
+  @include desktop {
+    border: dotted 15px #ffae00;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.frontPage__button:hover {
+  box-shadow: 20px 10px gray;
+}

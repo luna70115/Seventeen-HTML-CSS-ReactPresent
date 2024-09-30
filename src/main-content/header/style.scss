@@ -1,0 +1,75 @@
+@import "/src/assets/style/style.scss";
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  height: 70px;
+  background-color: $caratBlue;
+  border-radius: 0 0 20px 20px;
+  border-bottom: solid 4px $caratPink;
+  @include tablet {
+    gap: 50px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    @include tablet {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__seventeen {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    font-size: 30px;
+    font-family: $fontStyle;
+    color: $caratPink;
+    text-decoration: none;
+    @include tablet {
+      font-size: 40px;
+    }
+  }
+
+  &__listBar {
+    display: flex;
+    align-items: center;
+  }
+
+  &__list {
+    display: none;
+    @include desktop {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      width: 120px;
+      padding: 5px 6px;
+      margin: 0 10px;
+      font-size: 18px;
+      color: $caratPink;
+      border: solid 2px $caratPink;
+      border-radius: 100px;
+    }
+  }
+
+  &__iconBar {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+}
