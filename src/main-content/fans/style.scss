@@ -1,0 +1,60 @@
+@import "/src/assets/style/style.scss";
+.fans {
+  display: block;
+  background-color: #ffffff71;
+  margin: 100px 20px;
+  padding: 50px 0;
+  gap: 30px;
+  border: dashed 10px $caratPink;
+  border-radius: 30px;
+
+  @include tablet {
+    margin: 100px;
+  }
+
+  &__blcok {
+    display: block;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    color: white;
+    margin: 50px;
+
+    @include tablet {
+      font-size: 100px;
+    }
+  }
+
+  &__person {
+    color: rgba(255, 255, 255, 0.767);
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin: 30px;
+    color: #535353f1;
+    line-height: 30px;
+    font-size: 15px;
+    transition: font-size 1s, font-weight 1s;
+
+    @include tablet {
+      margin: 50px;
+      font-size: 20px;
+    }
+  }
+}
+
+.fans__text:hover {
+  font-weight: bold;
+
+  @include tablet {
+    font-size: 30px;
+  }
+}

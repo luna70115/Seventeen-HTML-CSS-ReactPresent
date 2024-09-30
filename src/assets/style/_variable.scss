@@ -1,0 +1,20 @@
+$break-point-tablet: 750px;
+$break-point-desktop: 1300px;
+$font-korean: "Jua", sans-serif;
+$font-normal: normal;
+$fontStyle: "Nerko One", cursive;
+$fontTitle: "Bevan", serif;
+$caratPink: #f7cac9;
+$caratBlue: #92a8d1;
+
+@mixin tablet {
+  @media (min-width: $break-point-tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $break-point-desktop) {
+    @content;
+  }
+}

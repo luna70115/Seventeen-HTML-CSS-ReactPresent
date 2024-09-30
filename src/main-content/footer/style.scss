@@ -1,0 +1,32 @@
+@import "/src/assets/style/style.scss";
+.footer {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  border: solid 2px $caratPink;
+  background-color: $caratBlue;
+
+  @include tablet {
+    gap: 50px;
+  }
+
+  &__text {
+    color: $caratPink;
+    margin: 10px;
+
+    @include tablet {
+      font-size: 20px;
+    }
+  }
+
+  &__textBar {
+    display: block;
+
+    @include tablet {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}

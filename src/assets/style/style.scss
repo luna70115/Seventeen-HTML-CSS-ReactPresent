@@ -1,0 +1,10 @@
+@import "./reset";
+@import "./variable";
+@import "./module";
+
+body {
+  box-sizing: border-box;
+  background-color: $caratBlue;
+  width: 100%;
+  height: 100%;
+}
