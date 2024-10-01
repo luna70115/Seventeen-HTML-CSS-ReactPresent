@@ -4,11 +4,9 @@ export function FrontPage() {
   return (
     <section className="frontPage">
       <p className="frontPage__title"> Seventeen Right Here</p>
-
       <section className="frontPage__circleBar">
         <Circle data={frontPageData} />
       </section>
-
       <p className="frontPage__title">Going Seventeen !</p>
       <div className="marquee frontPage__marquee">
         <p className="marquee__content">

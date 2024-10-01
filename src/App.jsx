@@ -2,7 +2,6 @@ import "./assets/style/style.scss";
 import { Header } from "./main-content/header/header";
 import { FrontPage } from "./main-content/frontpage/frontPage";
 import { Introduce } from "./main-content/introduce/introduce";
-
 import { Team } from "./main-content/team/team";
 import { Single } from "./main-content/single/single";
 import { Show } from "./main-content/show/show";
@@ -15,7 +14,6 @@ function App() {
       <Header></Header>
       <FrontPage></FrontPage>
       <Introduce></Introduce>
-
       <Team></Team>
       <Single></Single>
       <Show></Show>

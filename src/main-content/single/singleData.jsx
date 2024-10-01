@@ -26,7 +26,7 @@ export const singleData = [
   },
 
   {
-    text: "Joshua(SHINGIRU)",
+    text: "Joshua(Shingiru)",
     url: "https://www.youtube.com/watch?v=7b-xfhmhl0g&list=RDEMVpAR8BhnaNDEaUf-H6Vjjg&start_radio=1&ab_channel=Release-Topic",
     img: Joshu,
   },
@@ -44,7 +44,7 @@ export const singleData = [
   },
 
   {
-    text: "WonWoo( last night )",
+    text: "WonWoo(Last night )",
     url: "https://www.youtube.com/watch?v=EJF2PV3BQtQ&ab_channel=HYBELABELS",
     img: Wonwoo,
   },

@@ -1,6 +1,6 @@
+import App from "./App.jsx";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
 import { Coups } from "./person/coups/coups.jsx";
 import { JeongHan } from "./person/jeongHan/jeongHan.jsx";
 import { Joshu } from "./person/joshu/joshu.jsx";
@@ -14,8 +14,8 @@ import { The8 } from "./person/the8/the8.jsx";
 import { Boo } from "./person/boo/boo.jsx";
 import { Vernon } from "./person/vernon/vernon.jsx";
 import { Dino } from "./person/dino/dino.jsx";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "coups", element: <Coups /> },

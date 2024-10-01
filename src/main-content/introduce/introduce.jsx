@@ -14,16 +14,16 @@ function Tmi({ data, carat }) {
       {data.map((item) => {
         return (
           <div className="introduce__card" key={item.name}>
-            {/* <div className="introduce__idBar">
+            <div className="introduce__idBar">
               <img className="introduce__icon" src={carat} alt="carat" />
               <p> Seventeen</p>
-            </div> */}
+            </div>
 
             <div className="introduce__imgBar">
               <img className="introduce__img" src={item.img} alt={item.name} />
             </div>
 
-            {/* <div className="introduce__tmiBar">
+            <div className="introduce__tmiBar">
               <div className="introduce__issue">
                 <p className="introduce__contentSpace">Name: </p>
                 <p className="introduce__contentSpace">BIRTH: </p>
@@ -34,7 +34,7 @@ function Tmi({ data, carat }) {
                 <p className="introduce__contentSpace">{item.birth}</p>
                 <p className="introduce__contentSpace">{item.team}</p>
               </div>
-            </div> */}
+            </div>
 
             <div className="button">
               <Link
