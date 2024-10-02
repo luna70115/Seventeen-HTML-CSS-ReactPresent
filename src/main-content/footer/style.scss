@@ -1,9 +1,8 @@
-@import "/src/assets/style/style.scss";
+@import "/src/assets/style//global.scss";
 .footer {
   display: block;
   text-align: center;
   padding: 20px;
-  border: solid 2px $caratPink;
   background-color: $caratBlue;
 
   @include tablet {

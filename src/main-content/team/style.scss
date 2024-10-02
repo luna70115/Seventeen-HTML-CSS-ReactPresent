@@ -1,4 +1,5 @@
-@import "/src/assets/style/style.scss";
+@import "/src/assets/style/global.scss";
+@import "/src/assets/style/module";
 .squodJxW {
   &__title {
     color: rgb(187, 144, 27);
@@ -21,13 +22,14 @@
   align-items: center;
   justify-content: space-around;
   padding: 20px;
+  gap: 20px;
   &__block {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
     padding: 20px;
-    margin: 20px;
+
     width: 250px;
     background-color: rgba(255, 249, 241, 0.285);
   }

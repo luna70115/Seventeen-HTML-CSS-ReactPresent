@@ -10,7 +10,7 @@ export function Team() {
       <>
         <div className="marquee squodBss__marquee">
           <p className="marquee__content">
-            행복은 성적순이 아니라 부석순! 안녕하세요 부석순입니다.{" "}
+            BSS、JW、Hiphop、Performance、Vocal
           </p>
         </div>
 
@@ -78,7 +78,10 @@ export function Team() {
             <h2 className="squad__title squodBss__title  ">Hiphop</h2>
             <img className=" squad__img " src={Hiphop} alt="" />
             <p className="squad__text  squodBss__text">
-              Hip-hop Team成員: S.Coups(隊長)、圓佑、珉奎、Vernon 四人組成。
+              Hip-hop Team成員: S.Coups(隊長)、圓佑、珉奎、Vernon
+              四人組成。代表歌曲❰기대❱、❰Check-In❱、❰TRAUMA❱、❰LOTTO
+              REMIX❱、❰Monday To Saturday❱、❰GAM3 BO1❱、❰그리워하는
+              것까지❱、❰Monster❱。
             </p>
           </div>
           {/*  Performance */}
@@ -86,7 +89,9 @@ export function Team() {
             <h2 className="squad__title squodBss__title  ">Performance</h2>
             <img className=" squad__img " src={Performance} alt="" />
             <p className="squad__text  squodBss__text">
-              Performance Team成員:Hoshi(隊長)、Jun、The8、Dino 四人組成。
+              Performance Team成員:Hoshi(隊長)、Jun、The8、Dino
+              四人組成。代表歌曲❰HIGHLIGHT❱、❰MOONWALKER❱、❰Wave❱、❰OMG❱、❰Who❱、❰Pang❱、❰가사❱、❰I
+              Don`t Understand But I Luv U❱、❰BACK 2 BACK❱。
             </p>
           </div>
           {/*  Vocal */}
@@ -94,7 +99,10 @@ export function Team() {
             <h2 className="squad__title squodBss__title  ">Vocal</h2>
             <img className=" squad__img " src={Vocal} alt="" />
             <p className="squad__text  squodBss__text">
-              Vocal Team成員:Woozi(隊長)、 淨漢、Joshua、DK、勝寬 五人組成。
+              Vocal Team成員:Woozi(隊長)、 淨漢、Joshua、DK、勝寬
+              五人組成。代表歌曲❰Drift Away❱、❰Don`t listen in
+              secret❱、❰아낀다❱、❰어른이 되면❱、❰Hug❱、❰Come To Me ❱、❰Adore
+              U❱、❰Pinwheel❱、❰하품 ❱。
             </p>
           </div>
         </section>

@@ -1,22 +1,19 @@
-@import "/src/assets/style/style.scss";
+@import "/src/assets/style//global.scss";
+
 .fans {
-  display: block;
-  background-color: #ffffff71;
-  margin: 100px 20px;
-  padding: 50px 0;
-  gap: 30px;
-  border: dashed 10px $caratPink;
-  border-radius: 30px;
+  display: flex;
 
-  @include tablet {
-    margin: 100px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff3f;
+  border-radius: 50px;
+
+  &__block {
+    margin: 50px 0 50px 0;
   }
-
-  &__blcok {
-    display: block;
-    text-align: center;
-  }
-
   &__title {
     font-size: 50px;
     font-weight: bold;
@@ -31,30 +28,14 @@
 
   &__person {
     color: rgba(255, 255, 255, 0.767);
+    margin-bottom: 20px;
   }
 
   &__text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     letter-spacing: 2px;
-    margin: 30px;
+    margin: 20px;
     color: #535353f1;
     line-height: 30px;
     font-size: 15px;
-    transition: font-size 1s, font-weight 1s;
-
-    @include tablet {
-      margin: 50px;
-      font-size: 20px;
-    }
-  }
-}
-
-.fans__text:hover {
-  font-weight: bold;
-
-  @include tablet {
-    font-size: 30px;
   }
 }

@@ -1,4 +1,4 @@
-@import "./variable";
+@import "./global.scss";
 .marquee {
   box-sizing: border-box;
   width: 100%;
@@ -6,7 +6,7 @@
   font-size: 50px;
   white-space: nowrap;
   overflow: hidden;
-
+  background-color: $caratPink;
   &__content {
     display: inline-block;
     padding-top: 8px;
