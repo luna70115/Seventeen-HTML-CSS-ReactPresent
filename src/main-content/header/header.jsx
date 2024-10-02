@@ -1,6 +1,6 @@
 import ig from "../../assets/icon-ig.png";
 import youtube from "../../assets/icon-youtube.png";
-import w from "../../assets/icon-w.png";
+import w from "../../assets/icon-W.png";
 import carat from "../../assets/icon-carat.png";
 import { Link } from "react-router-dom";
 import "./style.scss";
