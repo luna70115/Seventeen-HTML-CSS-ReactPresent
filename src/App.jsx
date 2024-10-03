@@ -1,3 +1,5 @@
+import "./assets/style/global.scss";
+import "./assets/style/_reset.scss";
 import "./assets/style/style.scss";
 import { Header } from "./main-content/header/header";
 import { FrontPage } from "./main-content/frontpage/frontPage";

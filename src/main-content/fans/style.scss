@@ -2,7 +2,6 @@
 
 .fans {
   display: flex;
-
   align-items: center;
   justify-content: space-between;
   margin: 20px;
@@ -10,7 +9,6 @@
   height: 300px;
   background-color: #ffffff3f;
   border-radius: 50px;
-
   &__block {
     margin: 50px 0 50px 0;
   }
@@ -20,17 +18,14 @@
     letter-spacing: 20px;
     color: white;
     margin: 50px;
-
     @include tablet {
       font-size: 100px;
     }
   }
-
   &__person {
     color: rgba(255, 255, 255, 0.767);
     margin-bottom: 20px;
   }
-
   &__text {
     letter-spacing: 2px;
     margin: 20px;

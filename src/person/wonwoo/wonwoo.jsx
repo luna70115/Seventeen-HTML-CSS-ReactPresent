@@ -1,4 +1,3 @@
-import "../../assets/style/style.scss";
 import "../person-style.scss";
 import wonwoo from "./wonwoo.jpeg";
 import { PersonHeader } from "../ui/ui-person/ui-person-header/ui-person-header";

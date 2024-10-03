@@ -13,7 +13,7 @@ export function Fans() {
       {fansData.map((item) => (
         <div className="fans" key={item.id}>
           <p className="fans__text">
-            {item.text} <p className="fans__person">{item.person}</p>
+            {item.text} <span className="fans__person">{item.person}</span>
           </p>
         </div>
       ))}

@@ -88,8 +88,8 @@ export const showData2021 = [
         id: "2021-17",
       },
       {
-        text: "✨和FO Squad Kpop聊天",
-        url: "https://www.youtube.com/watch?v=ULUNvosao2k&ab_channel=FOSquadKpop",
+        text: "✨和FO team Kpop聊天",
+        url: "https://www.youtube.com/watch?v=ULUNvosao2k&ab_channel=FOteamKpop",
         id: "2021-18",
       },
       {

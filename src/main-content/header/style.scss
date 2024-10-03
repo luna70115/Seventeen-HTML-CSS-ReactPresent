@@ -12,14 +12,12 @@
   @include tablet {
     gap: 50px;
   }
-
   &__title {
     display: flex;
     align-items: center;
     margin: 10px;
     text-decoration: none;
   }
-
   &__icon {
     display: flex;
     align-items: center;
@@ -31,7 +29,6 @@
       height: 40px;
     }
   }
-
   &__seventeen {
     display: flex;
     align-items: center;
@@ -44,12 +41,10 @@
       font-size: 40px;
     }
   }
-
   &__listBar {
     display: flex;
     align-items: center;
   }
-
   &__list {
     display: none;
     @include desktop {
@@ -66,7 +61,6 @@
       border-radius: 100px;
     }
   }
-
   &__iconBar {
     display: flex;
     align-items: center;

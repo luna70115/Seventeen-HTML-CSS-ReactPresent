@@ -1,4 +1,4 @@
-import "../../assets/style/style.scss";
+import "../../assets/style/global.scss";
 import "../person-style.scss";
 import { PersonHeader } from "../ui/ui-person/ui-person-header/ui-person-header";
 import jun from "./jun.jpeg";

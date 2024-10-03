@@ -1,33 +1,24 @@
 @import "/src/assets/style/global.scss";
 @import "/src/assets/style/module";
-.squodJxW {
-  &__title {
-    color: rgb(187, 144, 27);
-  }
-}
 
 .squodBss {
-  &__title {
-    color: rgb(170, 27, 27);
-  }
   &__marquee {
-    background-color: #000000;
+    background-color: $caratPink;
     color: rgb(255, 255, 255);
   }
 }
-
-.squad {
+.team {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin: 50px;
-  gap: 50px;
   &__block {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    margin: 20px;
     width: 250px;
     background-color: rgba(255, 249, 241, 0.285);
   }
@@ -38,18 +29,18 @@
     color: $caratBlue;
   }
   &__img {
-    width: 100%;
+    width: 200px;
+    height: 250px;
     border-radius: 20px;
   }
   &__text {
-    margin: 30px;
+    margin: 30px 0;
     overflow: auto;
     width: 250px;
     height: 200px;
     color: #525252;
     font-weight: bold;
     line-height: 30px;
-    padding: 0 20px;
   }
   &__marquee {
     background-color: rgb(9, 9, 22);
