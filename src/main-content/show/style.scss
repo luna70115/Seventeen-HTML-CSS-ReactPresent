@@ -33,22 +33,21 @@
     display: block;
     margin: 20px;
     padding: 10px;
-    width: 300px;
+    width: 220px;
     border-radius: 30px;
-    border: solid 5px $caratPink;
+    border: solid 4px $caratPink;
     background-color: aliceblue;
   }
   &__link {
     display: flex;
-    padding-left: 10px;
     color: rgb(78, 135, 201);
     text-decoration: none;
     font-family: $font-normal;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
   }
 }
 
 .show__button:hover {
-  border: solid 5px #ffae00;
+  border: solid 4px #ffae00;
 }

@@ -1,21 +1,14 @@
 @import "/src/assets/style//global.scss";
 .footer {
   padding: 20px;
-  background-color: $caratBlue;
   &__text {
     color: $caratPink;
     margin: 10px;
-    @include tablet {
-      font-size: 14px;
-    }
   }
   &__textBar {
-    display: block;
-    @include tablet {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }

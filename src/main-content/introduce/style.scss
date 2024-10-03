@@ -4,7 +4,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 50px 0;
-  gap: 5px;
+  gap: 6px;
   @include tablet {
     margin: 50px 0 100px 0;
   }
@@ -20,7 +20,7 @@
   &__imgBar {
     display: flex;
     justify-content: center;
-    padding: 0 5px;
+    padding: 0 6px;
   }
   &__idBar {
     display: flex;
@@ -62,17 +62,17 @@
   &__contentSpace {
     text-align: start;
     height: 20px;
-    padding: 5px;
+    padding: 4px;
     font-size: 10px;
     @include tablet {
       margin-bottom: 10px;
-      font-size: 15px;
+      font-size: 16px;
     }
   }
   &__issue {
     display: inline-block;
     height: 30px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     color: #976d11;
   }
@@ -80,18 +80,18 @@
     display: inline-block;
     text-align: center;
     height: 30px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
   }
   &__button {
     font-weight: bold;
     font-size: 10px;
-    padding: 5px;
+    padding: 6px;
     margin: 20px;
     text-decoration: none;
     @include tablet {
       padding: 10px;
-      font-size: 15px;
+      font-size: 16px;
     }
   }
   &__link {
