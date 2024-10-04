@@ -17,7 +17,7 @@ export function Header() {
         <a className=" header__list header__seventeen" href="#introduce">
           introduce
         </a>
-        <a className=" header__list header__seventeen" href="#threeDetachment">
+        <a className=" header__list header__seventeen" href="#team">
           team
         </a>
         <a className=" header__list header__seventeen" href="#show">

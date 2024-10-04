@@ -11,7 +11,7 @@ export function Fans() {
       direction="right"
     >
       {fansData.map((item) => (
-        <div className="fans" key={item.id}>
+        <div id="fans" className="fans" key={item.id}>
           <p className="fans__text">
             {item.text} <span className="fans__person">{item.person}</span>
           </p>
