@@ -14,9 +14,9 @@ import { The8 } from "./person/the8/the8.jsx";
 import { Boo } from "./person/boo/boo.jsx";
 import { Vernon } from "./person/vernon/vernon.jsx";
 import { Dino } from "./person/dino/dino.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   { path: "/", element: <App /> },
   { path: "coups", element: <Coups /> },
   { path: "jeong-han", element: <JeongHan /> },
