@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import IG from "../../../../assets/icon-ig.png";
+import Youtube from "../../../../assets/icon-youtube.png";
+import W from "../../../../assets/icon-W.png";
 import "./style.scss";
 export function PersonHeader() {
   return (
@@ -16,25 +19,13 @@ export function PersonHeader() {
 
       <div className="personHeader__iconBar">
         <a target="_blank" href="https://www.instagram.com/saythename_17/">
-          <img
-            className="personHeader__icon"
-            src="../src/assets/icon-ig.png"
-            alt="IG"
-          />
+          <img className="personHeader__icon" src={IG} alt="IG" />
         </a>
         <a target="_blank" href="https://weverse.io/seventeen/artistpedia">
-          <img
-            className="personHeader__icon"
-            src="../src/assets/icon-W.png"
-            alt="Weverse"
-          />
+          <img className="personHeader__icon" src={W} alt="Weverse" />
         </a>
         <a target="_blank" href="https://www.youtube.com/@pledis17">
-          <img
-            className="personHeader__icon"
-            src="../src/assets/icon-youtube.png"
-            alt="YouTube"
-          />
+          <img className="personHeader__icon" src={Youtube} alt="YouTube" />
         </a>
       </div>
     </header>

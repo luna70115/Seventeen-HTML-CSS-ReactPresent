@@ -1,12 +1,12 @@
 import "../../assets/style/global.scss";
 import "../person-style.scss";
+
 import { PersonHeader } from "../ui/ui-person/ui-person-header/ui-person-header";
 import hoshi from "./hoshi.jpeg";
 export function Hoshi() {
   return (
     <>
       <PersonHeader />
-
       <div className="bar">
         <div className="overflow">
           <img className="career__img" src={hoshi} alt="" />
