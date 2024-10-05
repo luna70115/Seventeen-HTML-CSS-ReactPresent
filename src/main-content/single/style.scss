@@ -30,20 +30,16 @@
     }
     @include desktop {
       text-align: start;
-      font-size: 100px;
+      font-size: 70px;
     }
   }
   &__text {
     text-align: center;
     font-size: 16px;
-    margin: 20px 0;
     color: #525252;
-    margin-top: 26px;
-
+    margin-top: 16px;
     @include desktop {
       text-align: start;
-      margin: 30px 0;
-      font-size: 20px;
     }
   }
   &__person {
@@ -51,24 +47,22 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    @include tablet {
-      padding: 50px 0;
-    }
   }
   &__img {
     width: 50px;
-    border: solid 6px #000000;
+    border: solid 8px #000000;
     margin: 10px;
     transition: width 1s;
     @include tablet {
-      border: solid 8px #000000;
-      width: 150px;
+      width: 100px;
       margin: 40px;
     }
   }
 }
 
 .single__img:hover {
-  width: 180px;
-  box-shadow: 10px 10px rgb(255, 187, 0);
+  @include tablet {
+    width: 160px;
+    box-shadow: 10px 10px rgb(255, 187, 0);
+  }
 }

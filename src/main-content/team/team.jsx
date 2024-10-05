@@ -20,13 +20,9 @@ export function Team() {
             <h2 className="team__title squodBss__title  ">BSS</h2>
             <img className=" team__img " src={BSS} alt="" />
             <p className="team__text  squodBss__text">
-              夫碩順（BSS）成員介紹：
-              <br />
-              <br />
-              JxW是韓國男子組合SEVENTEEN的子團體。該小分隊由兩位成員組成，分別是Jeong
-              Han（尹淨漢）、Won Woo（全圓佑）。
               夫碩順（BSS）是韓國男子組合SEVENTEEN的子團體，該小分隊由三位成員組成，分別是Hoshi（權順榮）、DK（李碩珉）、以及
               勝寛（夫勝寛），而隊長則是 DK。
+              <br />
               <br />
               組合名稱：由三位成員的本名組成：
               <br />
@@ -36,8 +32,8 @@ export function Team() {
               <br />
               Soon（Hoshi，Kwon SoonYoung）
               <br />
-              出道：2018年3月21日，夫碩順以數位單曲《Just do it》出道。
               <br />
+              出道：2018年3月21日，夫碩順以數位單曲《Just do it》出道。
               <br />
               出道前的經歷： 在練習生時期，勝寛、DK 和
               Hoshi,經常聚在一起搞笑、娛樂，三人也曾一同翻跳同公司前輩 **Orange
