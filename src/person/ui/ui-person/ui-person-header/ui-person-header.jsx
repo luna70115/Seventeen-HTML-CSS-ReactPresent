@@ -2,16 +2,13 @@ import { Link } from "react-router-dom";
 import IG from "../../../../assets/icon-ig.png";
 import Youtube from "../../../../assets/icon-youtube.png";
 import W from "../../../../assets/icon-W.png";
+import Carat from "../../../../assets/icon-carat.png";
 import "./style.scss";
 export function PersonHeader() {
   return (
     <header className="personHeader">
       <div className="personHeader__title" href="../index.html">
-        <img
-          className="personHeader__icon"
-          src="../src/assets/icon-carat.png"
-          alt="Carat"
-        />
+        <img className="personHeader__icon" src={Carat} alt="Carat" />
         <Link to={"/"} className="personHeader__seventeen">
           Seventeen
         </Link>
