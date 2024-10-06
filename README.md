@@ -1,8 +1,8 @@
-# React + Vite
+專案簡介：
+在這個專案中，我重新優化了一個之前製作的偶像介紹網站，目的是加強對 React 元件應用的練習。整個專案結合了 SCSS、RWD（響應式網頁設計）和 BEM（區塊元素修飾符）命名規範，以確保代碼結構清晰且易於維護。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+在 React 部分，我專注於 元件化設計，將重複的 UI 元素抽取成可重複使用的元件，這不僅讓開發變得更有效率，還提升了代碼的可維護性。此外，我使用了 React Router 進行簡單的路由配置，實現了網站的多頁面導覽。
 
-Currently, two official plugins are available:
+為了進一步提升程式碼的靈活性，我將可數據化的內容（如偶像的資料）透過 map() 方法進行渲染，這樣可以讓數據與視圖更好地分離，達到簡化和優化程式碼的效果，也讓未來的維護和擴充變得更加容易。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+此外，我還增加了 React 跑馬燈元件，用來展示偶像對粉絲的鼓勵話語，這不僅增添了互動性，還保持了整個頁面的簡潔性和乾淨的設計。
